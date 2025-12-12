@@ -20,7 +20,11 @@ Key personas include:
 - **Project Managers (PMs)** who coordinate delivery and risks
 - **Product Managers (PdMs)** who prioritize outcomes and measure success
 - **Developers** who implement and test features
-- **QA roles** focused on validation
+- **QA Leads** who define test strategy and ensure quality standards
+- **UX Designers** who research user needs and design interfaces
+- **Technical Writers** who create and maintain documentation
+- **Release Managers** who coordinate release activities and deployment schedules
+- **Business Analysts** who gather requirements and bridge business and technical teams
 
 All roles foster clear ownership and psychological safety.
 
@@ -38,8 +42,19 @@ Releases are categorized as patches, minors, or majors, with checklists for pre-
 
 This holistic approach reduces single-person dependencies, accelerates onboarding, and standardizes workflows for consistent project execution.
 
+### Handoffs and Collaboration
+
+Effective handoffs between roles ensure accountability and reduce miscommunication. OctoAcme provides practical checklists for key handoff points:
+
+- **UX to Development**: Ensures design specifications, assets, and context are clearly communicated for implementation
+- **Development to Technical Writing**: Provides writers with necessary technical details, access, and context for accurate documentation
+- **Development to QA**: Establishes clear testing scope, environment setup, and quality criteria for validation
+
+These checklists promote clear ownership, reduce rework, and ensure all stakeholders have the information they need to succeed.
+
 ## Docs Index
 
+### Core Process Documentation
 - [Project Management Overview](octoacme-project-management-overview.md)
 - [Project Initiation Guide](octoacme-project-initiation.md)
 - [Project Planning](octoacme-project-planning.md)
@@ -48,6 +63,11 @@ This holistic approach reduces single-person dependencies, accelerates onboardin
 - [Release & Deployment Guide](octoacme-release-and-deployment.md)
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
 - [Roles and Personas](octoacme-roles-and-personas.md)
+
+### Handoff Checklists and Templates
+- [UX Design Handoff Checklist](octoacme-ux-handoff-checklist.md)
+- [Technical Writing Handoff Checklist](octoacme-technical-writing-handoff-checklist.md)
+- [QA Handoff Checklist](octoacme-qa-handoff-checklist.md)
 
 ## Contributing
 
