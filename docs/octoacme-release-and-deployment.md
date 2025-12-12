@@ -11,17 +11,20 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
-- Release notes drafted
-- Rollback / mitigation plan documented
-- Smoke tests prepared
+- QA sign-off obtained (from QA Lead)
+- Release notes drafted (by Technical Writer)
+- Documentation updated and published (by Technical Writer)
+- Rollback / mitigation plan documented (by Release Manager)
+- Smoke tests prepared (by QA Lead)
+- Release coordination completed (by Release Manager)
 
 ## Deployment Checklist
-- [ ] Deployment window scheduled (if needed)
+- [ ] Deployment window scheduled (coordinated by Release Manager)
 - [ ] Backup or snapshot (if applicable)
-- [ ] Deploy to staging and run smoke tests
-- [ ] Deploy to production (automated pipeline preferred)
-- [ ] Run post-deploy verifications
-- [ ] Announce release to stakeholders and support
+- [ ] Deploy to staging and run smoke tests (validated by QA Lead)
+- [ ] Deploy to production (automated pipeline preferred, coordinated by Release Manager)
+- [ ] Run post-deploy verifications (by QA Lead and Release Manager)
+- [ ] Announce release to stakeholders and support (by Release Manager and Technical Writer)
 
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
