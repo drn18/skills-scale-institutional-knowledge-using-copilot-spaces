@@ -49,8 +49,8 @@ When using GitHub Copilot's coding agent for automated work:
   - View active and completed agent sessions
   - Monitor task execution time (typically 5-15 minutes)
   - Access detailed logs and session history
-- **Check from Copilot Space**: Query open PRs and agent status directly
-  - Use prompt: "check open pull requests"
+- **Check from Copilot Spaces**: Query open PRs and agent status directly
+  - Example prompts: "check open pull requests", "show PR status", "list agent tasks"
   - Review agent-created PRs and their progress
   - Verify agent completion and review readiness
 
